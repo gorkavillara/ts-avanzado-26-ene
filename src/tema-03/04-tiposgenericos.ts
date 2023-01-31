@@ -3,10 +3,6 @@ type Nullable<T> = T | null | undefined
 
 type CreatesValue<Input, Output> = (input: Input) => Output
 
-let myCreator: CreatesValue<number, string>
+const myCreator: CreatesValue<number, string> = (section) => section.toFixed(2)
 
-myCreator = section => section.toFixed(2)
-
-let mySecondCreator: CreatesValue<string, number>
-
-mySecondCreator = text => text.length
+const mySecondCreator: CreatesValue<string, number> = (text) => text.length

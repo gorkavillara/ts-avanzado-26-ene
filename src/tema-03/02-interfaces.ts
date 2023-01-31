@@ -52,3 +52,5 @@ const myWrongNode: LinkedNode<number | boolean> = {
         // }
     }
 }
+
+export { myNumericBox }
