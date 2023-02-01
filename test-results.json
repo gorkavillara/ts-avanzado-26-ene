@@ -1,0 +1,160 @@
+{
+    "numFailedTestSuites": 0,
+    "numFailedTests": 0,
+    "numPassedTestSuites": 2,
+    "numPassedTests": 8,
+    "numPendingTestSuites": 0,
+    "numPendingTests": 0,
+    "numRuntimeErrorTestSuites": 0,
+    "numTodoTests": 0,
+    "numTotalTestSuites": 2,
+    "numTotalTests": 8,
+    "openHandles": [],
+    "snapshot": {
+        "added": 0,
+        "didUpdate": false,
+        "failure": false,
+        "filesAdded": 0,
+        "filesRemoved": 0,
+        "filesRemovedList": [],
+        "filesUnmatched": 0,
+        "filesUpdated": 0,
+        "matched": 0,
+        "total": 0,
+        "unchecked": 0,
+        "uncheckedKeysByFile": [],
+        "unmatched": 0,
+        "updated": 0
+    },
+    "startTime": 1675245420891,
+    "success": true,
+    "testResults": [
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [],
+                    "duration": 4,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "Mi primer test",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 1,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "Mi primer test"
+                },
+                {
+                    "ancestorTitles": ["Función suma"],
+                    "duration": 1,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "Función suma Testeando la función suma",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 1,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "Testeando la función suma"
+                },
+                {
+                    "ancestorTitles": ["Función suma"],
+                    "duration": 1,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "Función suma Testeando la función suma - negativo",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 1,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "Testeando la función suma - negativo"
+                },
+                {
+                    "ancestorTitles": ["Testeando el seno"],
+                    "duration": 1,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "Testeando el seno Testeando que el seno de 0 es 0",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 1,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "Testeando que el seno de 0 es 0"
+                },
+                {
+                    "ancestorTitles": ["Testeando el seno"],
+                    "duration": 8,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "Testeando el seno Testeando que el seno de cualquier número aleatorio siempre va a estar entre -1 y 1",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 2,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "Testeando que el seno de cualquier número aleatorio siempre va a estar entre -1 y 1"
+                },
+                {
+                    "ancestorTitles": ["Otro grupo de tests"],
+                    "duration": 1,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "Otro grupo de tests Testeando cadenas",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 1,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "Testeando cadenas"
+                },
+                {
+                    "ancestorTitles": ["Otro grupo de tests"],
+                    "duration": 1,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "Otro grupo de tests Testeando cadenas 2",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 1,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "Testeando cadenas 2"
+                }
+            ],
+            "endTime": 1675245429238,
+            "message": "",
+            "name": "C:\\Users\\Gorka\\Desktop\\ts-avanzado\\src\\tema-10\\01-primertest.test.ts",
+            "startTime": 1675245422343,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "Testeando nuestra integración con axios"
+                    ],
+                    "duration": 9,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "Testeando nuestra integración con axios Debería obtener información de un servicio HTTP",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 1,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "Debería obtener información de un servicio HTTP"
+                }
+            ],
+            "endTime": 1675245429321,
+            "message": "",
+            "name": "C:\\Users\\Gorka\\Desktop\\ts-avanzado\\src\\tema-11\\01-testintegracion.test.ts",
+            "startTime": 1675245422247,
+            "status": "passed",
+            "summary": ""
+        }
+    ],
+    "wasInterrupted": false
+}
