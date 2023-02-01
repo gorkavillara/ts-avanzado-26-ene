@@ -7,7 +7,8 @@
     "dev": "tsc --watch",
     "build": "tsc",
     "build:esm": "tsc --target ES6 --outDir public",
-    "test": "jest --watch",
+    "test": "jest",
+    "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
     "test:exportjson": "jest --json > test-results.json"
   },
