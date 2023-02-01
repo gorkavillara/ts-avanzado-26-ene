@@ -6,13 +6,18 @@
   "scripts": {
     "dev": "tsc --watch",
     "build": "tsc",
-    "build:esm": "tsc --target ES6 --outDir public"
+    "build:esm": "tsc --target ES6 --outDir public",
+    "test": "jest --watch",
+    "test:coverage": "jest --coverage"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/jest": "^29.4.0",
     "@types/node": "^18.11.18",
+    "jest": "^29.4.1",
+    "ts-jest": "^29.0.5",
     "typescript": "^4.9.4"
   },
   "dependencies": {
