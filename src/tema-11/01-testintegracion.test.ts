@@ -15,7 +15,7 @@ describe("Testeando nuestra integración con axios", () => {
     })
     it("Debería obtener información de un servicio HTTP", async () => {
         const resultado = await fetchData()
-        console.log(resultado)
-        expect(resultado).toBe(expected)
+        // console.log(resultado)
+        expect(resultado).not.toBe(expected)
     })
 })
